@@ -16,7 +16,7 @@ export const removeCar = (index) => {
 
 export const fetchMakes = () =>{
     return (dispatch) => {
-        fetch(url)
+        fetch()
         .then(res => res.json())
         .then(response => {
             const action = {
